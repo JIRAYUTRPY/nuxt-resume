@@ -13,7 +13,7 @@ const pricing = [
     stack: ["NodeJS", "Express", "Supabase", "ReactJS"],
     button: {
       text: "Live Demo",
-      link: "/",
+      link: "https://demo-course-flow.vercel.app/",
     },
   },
   {
@@ -30,7 +30,7 @@ const pricing = [
   {
     about: "Microcontroller",
     name: "Arduino",
-    demo: "https://demo-course-flow.vercel.app/",
+    demo: "https://github.com/JIRAYUTRPY/DemoArduino",
     image:
       "https://wexoobooxddperkjajlq.supabase.co/storage/v1/object/public/seo/projects/arduino.png",
     stack: ["Firebase RTDB", "CAN Protocal", "ESP"],
