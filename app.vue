@@ -7,7 +7,7 @@ useSeoMeta({
   ogDescription:
     "This is my resume site and contact, if you need any help about technology contact me.",
   ogImage:
-    "hhttps://wexoobooxddperkjajlq.supabase.co/storage/v1/object/public/seo/og.png",
+    "https://wexoobooxddperkjajlq.supabase.co/storage/v1/object/public/seo/og.png",
   twitterCard: "summary_large_image",
 });
 </script>
