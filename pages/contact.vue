@@ -29,12 +29,6 @@ definePageMeta({
               >jirayutrpy@hotmail.com</a
             >
           </div>
-          <!-- <div class="flex items-center mt-2 space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:phone" /><a
-              href="tel:+1 (234) 5678 999"
-              >+1 (234) 5678 999</a
-            >
-          </div> -->
         </div>
       </div>
       <div>
