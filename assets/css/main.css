@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light-mode {
+  --text: #120713;
+  --bg-primary: #fcf8fc;
+  --bg-secondary: #fff;
+  --color-primary: #070307;
+  --color-secondary: #071521;
+  --accent: #e14bf1;
+  --border-color: #ddd;
+  --p-color: rgb(100 116 139);
+}
+
+.dark-mode {
+  --text: #f7ecf8;
+  --bg-primary: #070307;
+  --bg-secondary: #071521;
+  --color-primary: #b729c7;
+  --color-secondary: #771282;
+  --color-accent: #a40eb4;
+  --border-color: #0d2538;
+  --p-color: rgb(100 116 139);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text);
+  transition: background-color 0.3s;
+}
+
+a {
+  color: rgb(75 85 99);
+}
+
+a:hover {
+  color: var(--text);
+}
+
+p {
+  color: var(--p-color);
+}
+
+.button {
+  background-color: var(--color-primary);
+}
+
+.button:hover {
+  background-color: var(--color-secondary);
+}
+
+.boxing {
+  border: 2px solid var(--border-color);
+  border-radius: 15px;
+}
+
+.cta-box {
+  background-color: var(--color-secondary);
+}
